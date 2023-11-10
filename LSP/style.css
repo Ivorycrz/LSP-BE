@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+    outline: none;
+    font-family: IMPRIMA;
+}
+
+body {
+    background-color: #08001E;
+
+}
+
+.navigasi {
+    background-color: #384CFF;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+    
+}
+
+  .navigasi  {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navigasi a:hover {
+    color: black;
+  }
+
+  .navi-gasi{
+    display: flex;
+    margin: 1rem;             
+  }
+
+  .navi-gasi a{
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.link {
+margin-left: 25%;
+}
+
+
+.heading {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.info{
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    width: 220px;
+    height: 120px;
+    background-color: rgb(227, 255, 127);
+    margin: 1em;
+    
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    font-size: 1rem;
+}
+
+.box a{
+    margin-left: 1rem;
+    color: red;
+}
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #af7a4c;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+
+
+.button a {
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+
+.button:hover {
+    background-color: darkgreen;
+}
+
+
+
+.warn:hover {
+    background-color: darkred !important;
+}
+
+.blue {
+    background-color: blue !important;
+    color: #f8f8f8;
+}
+
+.blue:hover {
+    background-color: darkblue !important;
+}
+
+
+
+.button2 {
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 7px;
+}
+
+
+table, td, th {
+    border: 1px solid;
+  }
+  
+  table {
+    width: 100% !important;
+    border-collapse: collapse;
+  }
